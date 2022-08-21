@@ -11,7 +11,8 @@ En bici:
 
 ![Enbici](https://github.com/danielbernalb/LibrePM25/blob/master/img/Enbici.jpg)
 
-Red fija de 4 sensores con ESP8266 transmitiendo a Ubidots:
+Red fija de 4 sensores con ESP8266 transmitiendo a Ubidots.
+Se usaron sensores Plantower, Nova y Honeywell para probarla inicialmente.
 
 ![Red4sensoresUbidots](https://github.com/danielbernalb/LibrePM25/blob/master/img/NodemcuUbidots.jpg)
 
