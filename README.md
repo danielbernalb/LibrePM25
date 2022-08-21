@@ -6,3 +6,12 @@ Medidor de Material Particulado básico con sensor de PM2.5 HPMA115S0 y de humed
 En acción:
 
 ![LibrePM25&DustTrackMaterials](https://github.com/danielbernalb/LibrePM25/blob/master/img/Libre%26Dust.jpg)
+
+En bici:
+
+![Enbici](https://github.com/danielbernalb/LibrePM25/blob/master/img/Enbici.jpg)
+
+Red fija de 4 sensores con ESP8266 transmitiendo a Ubidots:
+
+![Red4sensoresUbidots](https://github.com/danielbernalb/LibrePM25/blob/master/img/NodemcuUbidots.jpg)
+
