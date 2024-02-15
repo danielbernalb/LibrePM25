@@ -139,7 +139,7 @@ Puedes acomodar cajas plásticas de diferentes tamaños, en el siguiente caso se
   
  # 4. Funcionamiento del sensor.
  
- Sólo es conectar el sensor al celular por el cable OTG o a una batería externa, el sensor muestra el material particulado PM2.5 actual y lo refresca cada segundo.
+ Sólo es conectar el sensor al teléfono móvil por el cable OTG o a una batería externa, el sensor muestra el material particulado PM2.5 actual y lo refresca cada segundo.
   
 ****************************
 ### Contacto
