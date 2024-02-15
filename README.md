@@ -29,7 +29,7 @@ Link compra [Aliexpress](https://es.aliexpress.com/wholesale?SearchText=jumper-w
 
 ![Familia PMSx003](https://github.com/danielbernalb/LibrePM25/blob/master/img/PMSx003.jpg)
 
-PMS7003 es el que más utilizo por lo delgado y testeado, PMS5003 es más grande, PMSA003 es el más pequeño, PMS3003 es más voluminoso y poco se usa.
+PMS7003 es el que más he utilizado por lo delgado pero cualquier modelo funciona y es compatible.
 
 Link desde Aliexpress China:
 [Aliexpress](https://es.aliexpress.com/item/32784279004.html?channel=twinner)
