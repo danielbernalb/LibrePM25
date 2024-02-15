@@ -1,23 +1,11 @@
 # LibrePM25
 Medidor de Material Particulado básico con sensor de PM2.5 PMSx003, Arduino UNO y Multi-function Shiel.
 
-![Medidor PM25](https://github.com/danielbernalb/LibrePM25/blob/master/img/LibrePM25_640.jpg)
-
-En acción:
-
-![LibrePM25&DustTrackMaterials](https://github.com/danielbernalb/LibrePM25/blob/master/img/Libre%26Dust.jpg)
-
-
-# LibreCO2
-LibreCO2: Medidor de CO2 usando Arduino UNO y un sensor de CO2 comercial (SenseAir S8, Sensirion SCD30, Winsen MH-Z14 o MHZ-19 o Cubic CM1106).
-
 Esta es una versión básica de un medidor de PM2.5 de bajo costo con los materiales más comunes del mercado: Arduino UNO y el sensor más económico y popular: PMSx003. LibrePM25 usa un Arduino UNO, pero puede extenderse al MEGA o nano, por ser muy popular en escuelas y frecuentemente usado en las clases de tecnología o electrónica y la mayoría de escuelas tienen muchos de ellos. 
 
 El código del Arduino es lo más sencillo posible y puede programarse cargando el archivo .hex con el programa Xloader y así no necesitarías instalar el software Arduino para compilar y programar el código. Si buscas un sensor más avanzado y con conectividad por Bluetooth o por Wifi puedes armar un AireCiudadano [AireCiudadano](https://github.com/danielbernalb/AireCiudadano) con conectividad Bluetooth y Wifi. LibrePM25 usa los componentes más populares del mercado, así no sean los más avanzados, y el armado más sencillo posible sin necesitar el uso de cautín y soldadura de estaño.
 
 # 1. Materiales:
-
-![Materiales](https://github.com/danielbernalb/LibreCO2/blob/main/images/Materiales%20sensor.jpg)
 
 1. Escudo multifunción (Arduino Shield multifunction).
 
@@ -43,12 +31,12 @@ Link compra [Aliexpress](https://es.aliexpress.com/wholesale?SearchText=jumper-w
 
 PMS7003 es el que más utilizo por lo delgado y testeado, PMS5003 es más grande, PMSA003 es el más pequeño, PMS3003 es más voluminoso y poco se usa.
 
-	![Plantower PMS7003](https://github.com/danielbernalb/LibrePM25/blob/master/img/PMS7003.jpg)
+![Plantower PMS7003](https://github.com/danielbernalb/LibrePM25/blob/master/img/PMS7003.jpg)
 	
-	Link desde Aliexpress China:
-	https://es.aliexpress.com/item/32784279004.html?channel=twinner 
-	
-	Es el sensor que más se consigue en cada país.
+Link desde Aliexpress China:
+[Aliexpress](https://es.aliexpress.com/item/32784279004.html?channel=twinner)
+
+Es el sensor que más se consigue en cada país.
 	
 	
 ****************************
