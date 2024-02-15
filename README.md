@@ -17,10 +17,6 @@ El código del Arduino es lo más sencillo posible y puede programarse cargando 
 
 # 1. Materiales:
 
-Existen dos opciones para el armado de sensor, la más sencilla es usando un Escudo Multifunción (Shield) de Arduino el cual ya incluye el Display de 4 dígitos con lo cual se facilita mucho más el montaje. La segunda es armando las partes por individual.
-
-# 1.1. Opción con Escudo multifunción:
-
 ![Materiales](https://github.com/danielbernalb/LibreCO2/blob/main/images/Materiales%20sensor.jpg)
 
 1. Escudo multifunción (Arduino Shield multifunction).
@@ -41,17 +37,18 @@ Link compra [Aliexpress](https://es.aliexpress.com/wholesale?catId=0&initiative_
 
 Link compra [Aliexpress](https://es.aliexpress.com/wholesale?SearchText=jumper-wires), Link compra [Colombia](https://listado.mercadolibre.com.co/arduino-jumper-hembre-hembra#D[A:arduino%20jumper%20hembre%20hembra]), Compra Latinoamérica: Mercadolibre o tiendas de electrónica.
 
-4. Sensor PMSx003, opciones:
+4. Sensor de la familia PMSx003, opciones:
 
-	a. PMS7003 es el que más utilizo por lo delgado y testeado.
+![Familia PMSx003](https://github.com/danielbernalb/LibrePM25/blob/master/img/PMSx003.jpg)
 
-	![SenseAir S8](https://github.com/danielbernalb/LibreCO2/blob/main/images/SenseAir_S8.jpg)
+PMS7003 es el que más utilizo por lo delgado y testeado, PMS5003 es más grande, PMSA003 es el más pequeño, PMS3003 es más voluminoso y poco se usa.
+
+	![Plantower PMS7003](https://github.com/danielbernalb/LibrePM25/blob/master/img/PMS7003.jpg)
 	
 	Link desde Aliexpress China:
-	https://es.aliexpress.com/item/4000884582128.html
+	https://es.aliexpress.com/item/32784279004.html?channel=twinner 
 	
-	Link desde Digikey USA:
-	https://www.digikey.com/es/products/detail/senseair-north-america-inc/004-0-0053/10416532
+	Es el sensor que más se consigue en cada país.
 	
 	
 ****************************
@@ -61,92 +58,17 @@ Link compra [Aliexpress](https://es.aliexpress.com/wholesale?SearchText=jumper-w
 
 **SenseAir S8 sensor**
 
-GND ---> G0 Pin 2 de la regleta de 4 pines
+GND ---> Pin 1 del conector
 
-+5 &nbsp; ---> G+ Pin 1 de la regleta de 4 pines
++5 &nbsp; ---> Pin 3 del conector
 
-5 &nbsp; &nbsp; ---> Pin 2 de la regleta de 5 pines
+5 &nbsp; &nbsp; ---> Pin 9 del conector
 
-6 &nbsp; &nbsp; ---> Pin 3 de la regleta de 5 pines
-
-![SenseAir S8](https://github.com/danielbernalb/LibreCO2/blob/main/images/shield_senseair.jpg)
+![Shield PMS](https://github.com/danielbernalb/LibrePM25/blob/master/img/shield_pms.jpg)
 
 ## Video explicativo (aplica tambien para el LibrePM25 sólo que la conexión de los cables es diferente):
 
 [![](http://img.youtube.com/vi/KYHC06xhUu4/0.jpg)](http://www.youtube.com/watch?v=KYHC06xhUu4 "VideoLibreCO2")
-
-# 1.2. Opción por partes individuales:
-
-1. Arduino UNO original o versión china.
-2. Display TM1687.
-3. Jumper hembra - macho.
-4. Uno o dos Pulsadores o cables (uno para la calibración, otro para el nivel de Beep).
-5. Opcional: Buzzer.
-
-![Materiales](https://github.com/danielbernalb/LibreCO2/blob/main/images/Materials%20all%20text.jpg)
-
-6. Sensor, iguales opciones que la opción con Escudo multifunción.
-
-****************************
-
-
-**Conexiones para todos los sensores:**
-
-Componente electrónico ---> PIN del Arduino
-
-**Display---> PIN Arduino**
-
-CLK    ---> 9
-
-DIO    ---> 8
-
-VCC    ---> IOREF en la versión original o 5V en la copia china
-
-GND    ---> GND
-
-
-**Buzzer**
-
-"+"    ---> 11
-
-otro  ---> GND
-
-
-**Pulsador de calibración**
-
-Cualquiera ---> A0
-
-Cualquiera ---> A2
-
-
-**Pulsador de nivel del Beep**
-
-Cualquiera ---> A3
-
-Cualquiera ---> A5
-
-
-**Pulsador de altura sobre el nivel del mar**
-
-Cualquiera ---> 2
-
-Cualquiera ---> 4
-
-
-****************************
-**SenseAir S8**
-
-VIN Pin 1 de regleta de 4 pines ---> 5V 
-
-GND Pin 2 de regleta de 4 pines ---> GND
-
-RX Pin 2 de regleta de 5 pines ---> 6
-
-TX Pin 3 de regleta de 5 pines ---> 7 
-
-
-![SenseAir S8 connection](https://github.com/danielbernalb/LibreCO2/blob/main/images/parts_senseair.jpg)
-
 
 ****************************
 # 2. Programar el Firmware (código en el Arduino)
