@@ -56,7 +56,7 @@ GND ---> Pin 1 del conector
 
 [![](http://img.youtube.com/vi/KYHC06xhUu4/0.jpg)](http://www.youtube.com/watch?v=KYHC06xhUu4 "VideoLibreCO2")
 
-El video aplica pero al conector los 4 cables del sensor de CO2 lo cambias por los 3 del PMSx003 y listo.
+El video aplica para nuestro caso pero en lugar de conectar los 4 cables del sensor de CO2 lo cambias por los 3 del PMSx003 y listo.
 
 ****************************
 # 2. Programar el Firmware (código en el Arduino)
@@ -69,7 +69,7 @@ Existen 3 opciones para programar el Arduino: la más sencilla es usar un teléf
 
  - Conecta el cable USB OTG al teléfono.
  - Instala la app de Android ["Arduino Hex Uploader-Firmware Bin Upload"](https://play.google.com/store/apps/details?id=xyz.vidieukhien.embedded.arduinohexupload&hl=en_US&gl=US).
- - Baja el archivo .hex file de este ["Directorio de Google drive"](https://drive.google.com/drive/folders/1FxXLVhaGF6UCVObQlh8cVLddyWyQqUT0) basado en la versión de tu sensor (Shield y marca de sensor). Encuentra el archivo .hex que vas cargar en el Arduino, cada versión de sensor se encuentra disponible el el directorio "hex files". "LibrePM25_MFShield_PMSx003.hex" es el arhivo para el sensor Sensirion con el Shield Multifunción. Nota: No descargues el archivo .hex directamente de la página con la opción "Salvar como", que daña el archivo. Usa solamente el enlace de Google Drive.
+ - Baja el archivo .hex file de este ["Directorio de Google drive"](https://drive.google.com/drive/folders/1FxXLVhaGF6UCVObQlh8cVLddyWyQqUT0) basado en la versión de tu sensor (Shield y marca de sensor). Encuentra el archivo .hex que vas cargar en el Arduino, cada versión de sensor se encuentra disponible el el directorio "hex files". "LibrePM25_MFShield_PMSx003.hex" es el arhivo para el sensor Plantower con el Shield Multifunción. Nota: No descargues el archivo .hex directamente de la página con la opción "Salvar como", que daña el archivo. Usa solamente el enlace de Google Drive.
  - Busca el archivo .hex en tú teléfono.
  - Sube el código a tu tarjeta Arduino.
  - FIN.
@@ -96,7 +96,7 @@ Link compra Cable OTG USB [Aliexpress](https://es.aliexpress.com/wholesale?Searc
 
 A la izquierda se muestra la ventana del Xloader cuando se inicia.
 
-2.1.1. Explora hasta encontrar el achivo .hex que vas a cargar en el Arduino. Cada versión de sensor (Sensirion, Winsen o Cubic) se encuentra disponible en el directorio "hex files". Ejemplo: "LibreCO2_Shield_SCD30.hex" es el archivo para el sensor Sensirion SCD30 con el uso del Escudo Multifunción (Shield). No lo descargues directamente de la página con la opción "Guardar como", eso arruina el archivo.  Usa el siguiente enlace de Google Drive para bajar el archivo .hex buscando tu versión de Sensor (SCD30, MHZ14_9 o CM1106) y construcción (con Shield o por Partes):
+2.1.1. Explora hasta encontrar el achivo .hex que vas a cargar en el Arduino. Cada versión de sensor se encuentra disponible en el directorio "hex files". Ejemplo: "LibrePM25_MFShield_PMSx003.hex" es el archivo para el sensor Plantower con el uso del Escudo Multifunción (Shield). No lo descargues directamente de la página con la opción "Guardar como", eso arruina el archivo.  Usa el siguiente enlace de Google Drive para bajar el archivo .hex::
  
 https://drive.google.com/drive/folders/1FxXLVhaGF6UCVObQlh8cVLddyWyQqUT0
 
@@ -139,7 +139,7 @@ Puedes acomodar cajas plásticas de diferentes tamaños, en el siguiente caso se
   
  # 4. Funcionamiento del sensor.
  
- Sólo es conectarlo al celular o a la batería externa, el sensor muestra el material particulado actual y lo refresca cada segundo.
+ Sólo es conectar el sensor al celular por el cable OTG o a una batería externa, el sensor muestra el material particulado actual y lo refresca cada segundo.
   
 ****************************
 ### Contacto
