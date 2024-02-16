@@ -29,7 +29,7 @@ Link compra [Aliexpress](https://es.aliexpress.com/wholesale?SearchText=jumper-w
 
 ![Familia PMSx003](https://github.com/danielbernalb/LibrePM25/blob/master/img/PMSx003.jpg)
 
-PMS7003 es el que más he utilizado por lo delgado pero cualquier modelo de la familia PMSx003 funciona y es compatible.
+PMS7003 es el que más he utilizado por lo delgado pero cualquier modelo de la familia PMSx003 funciona.
 
 Link desde Aliexpress China:
 [Aliexpress](https://es.aliexpress.com/item/32784279004.html?channel=twinner)
