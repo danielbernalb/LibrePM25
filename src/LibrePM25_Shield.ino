@@ -66,7 +66,7 @@ void loop()
   if (pms.readUntil(data))
   {
     PM25_value_ori = data.PM_AE_UG_2_5;
-    PM25_value = ((630 * PM25_value_ori) / 1000) + 1.56; // Ajuste resultado de comparaciones con 4 estaciones oficiales en Bogotá y 1 Lima
+    PM25_value = ((630 * PM25_value_ori) / 1000) + 1.56; // Ajuste resultado de comparaciones con 4 estaciones método referencia en Bogotá y 1 Lima
     Serial.print(F("PMS PM2.5: "));
     Serial.print(PM25_value);
     Serial.println(F(" ug/m3"));
