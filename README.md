@@ -3,7 +3,7 @@ Medidor de Material Particulado básico con sensor de PM2.5 PMSx003, Arduino UNO
 
 Esta es una versión básica de un medidor de PM2.5 de bajo costo con los materiales más comunes del mercado: Arduino UNO y el sensor más económico y popular: Plantower de la familia PMSx003. LibrePM25 usa un Arduino UNO, pero puede extenderse al MEGA o nano, por ser muy popular en escuelas y frecuentemente usado en las clases de tecnología o electrónica y la mayoría de escuelas tienen muchos de ellos. 
 
-El código del Arduino es lo más sencillo posible y puede programarse cargando el archivo .hex con el programa Xloader y así no necesitarías instalar el software Arduino para compilar y programar el código. Si buscas un sensor más avanzado y con conectividad por Bluetooth o por Wifi puedes armar un AireCiudadano [AireCiudadano](https://github.com/danielbernalb/AireCiudadano) con conectividad Bluetooth y Wifi. LibrePM25 usa los componentes más populares del mercado, así no sean los más avanzados, y el armado más sencillo posible sin necesitar el uso de cautín y soldadura de estaño.
+El código del Arduino es lo más sencillo posible y puede programarse cargando el archivo .hex con una App para Android o el programa Xloader y así no necesitarías instalar el software Arduino para compilar y programar el código. Si buscas un sensor más avanzado y con conectividad por Bluetooth o por Wifi puedes armar un AireCiudadano [AireCiudadano](https://github.com/danielbernalb/AireCiudadano) con conectividad Bluetooth y Wifi. LibrePM25 usa los componentes más populares del mercado, así no sean los más avanzados, y el armado más sencillo posible sin necesitar el uso de cautín y soldadura de estaño.
 
 # 1. Materiales:
 
