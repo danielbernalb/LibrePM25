@@ -9,7 +9,7 @@ El código del Arduino es lo más sencillo posible y puede programarse cargando 
 
 1. Escudo multifunción (Arduino Shield multifunction).
 
-El Escudo tiene un bug o error que puede cortocircuitarlo con el conector USB, corte los pines que se muestran en la foto y agregue un trozo de cinta al conector USB, que también se muestra en el [video explicativo](https://github.com/danielbernalb/LibreCO2/blob/main/INSTRUCCIONES%20en%20Espa%C3%B1ol.md#video-explicativo):
+El Escudo tiene un bug o error que puede cortocircuitarlo con el conector USB, corte los pines que se muestran en la foto y agregue un trozo de cinta al conector USB, que también se muestra en el [video explicativo](https://github.com/danielbernalb/LibrePM25?tab=readme-ov-file#video-explicativo-aplica-para-el-librepm25):
 
 ![Cortar pines escudo](https://github.com/danielbernalb/LibreCO2/blob/main/images/Corte%20pines%20escudo_cinta.jpg)
 
