@@ -29,7 +29,7 @@ Link compra [Aliexpress](https://es.aliexpress.com/wholesale?SearchText=jumper-w
 
 ![Familia PMSx003](https://github.com/danielbernalb/LibrePM25/blob/master/img/PMSx003.jpg)
 
-PMS7003 es el que más he utilizado por lo delgado pero cualquier modelo funciona y es compatible.
+PMS7003 es el que más he utilizado por lo delgado pero cualquier modelo de la familia PMSx003 funciona y es compatible.
 
 Link desde Aliexpress China:
 [Aliexpress](https://es.aliexpress.com/item/32784279004.html?channel=twinner)
@@ -39,10 +39,9 @@ Los Plantower son los sensores que más se consiguen en Latinoamerica.
 	
 ****************************
 
-**Conexiones para cada sensor:**
+**Conexiones:**
 
-
-**SenseAir S8 sensor**
+Shield --- > PMSx003
 
 GND ---> Pin 1 del conector
 
@@ -133,9 +132,9 @@ Puedes acomodar cajas plásticas de diferentes tamaños, en el siguiente caso se
 
 ![Caja2](https://github.com/danielbernalb/LibreCO2/blob/main/images/Images4_2.jpg)
 
-3.2. Caja en madera MDF usando corte láser. En desarrollo.
+3.2. Caja en madera MDF usando corte láser. Pendiente.
 
-3.3. Caja en PLA con impresora 3D. En desarrollo.
+3.3. Caja en PLA con impresora 3D. Pendiente
   
  # 4. Funcionamiento del sensor.
  
