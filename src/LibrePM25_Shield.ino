@@ -74,8 +74,6 @@ void loop()
     Serial.print(F("PMS PM2.5: "));
     Serial.print(PM25_value);
     Serial.println(F(" ug/m3"));
- //    MFS.write("");
- //    delay(10);
     MFS.write(PM25_value);
     toggle = !toggle;
     digitalWrite(LED4, toggle);
