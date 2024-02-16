@@ -56,13 +56,9 @@ void setup()
   delay(100);
 
   if (pms.readUntil(data))
-  {
     Serial.println(F("Test Plantower sensor found!"));
-  }
   else
-  {
     Serial.println(F("Could not find Plantower sensor!"));
-  }
 }
 
 void loop()
