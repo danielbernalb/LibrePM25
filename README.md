@@ -124,7 +124,7 @@ Opciones iniciando por la más sencilla y económica:
 
 3.1. Caja comercial de bajo costo.
 
-Busca una caja plástica con un ancho similar al del Arduino y un largo mayor para que en el espacio sobrante ubiques el sensor. En el espacio sobrante perfora varios huecos por dónde entre aire para el mismo, en mi caso los hice con destornillador de 4mm. Haz otro hueco para el cable USB y el adaptador y listo. Ejemplo:
+Busca una caja plástica con un ancho similar al del Arduino y un largo mayor para que en el espacio sobrante ubiques el sensor. En el espacio sobrante perfora varios huecos por dónde entre aire para el mismo, en mi caso los hice con destornillador de 4mm. Haz otro hueco para el cable USB y el adaptador y listo. Ejemplo (las fotos son de un LibreCO2 pero aplica igual):
 
 ![Caja1](https://github.com/danielbernalb/LibreCO2/blob/main/images/ImagesX4.jpg)
 
